@@ -5,3 +5,4 @@ do
     sum=$(($i + $sum))
 done
 echo $sum
+echo $sum
