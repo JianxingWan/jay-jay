@@ -1,10 +1,8 @@
 #!/bin/bash
-sum=0
-for i in $@
+product=1
+for (( i=$@; i>0;i--))
 do 
-    sum=$(($i + $sum))
+    product=$(($i* $product))
 done
-echo $sum
-echo $sum
-#add more
-echo "That is a big numebr" 
+echo $product
+ 
