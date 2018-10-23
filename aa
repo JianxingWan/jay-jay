@@ -1,2 +1,2 @@
-# do subtractioOoin
+# do subtraction
 echo $(($1 + $2))
